@@ -40,7 +40,7 @@ p {
   align-items: center;
   padding: 10px 0;
   background: #BCD2EE;
-  width: 100%;
+  width: auto;
 }
 
 .contact {
@@ -51,9 +51,9 @@ p {
   justify-content: flex-start;
   align-items: center;
   padding: 10px 0;
-  background: #e28413;
+  background: #f17300;
   color: black;
-  width: 100%;
+  width: auto;
 }
 
 .samples li,
@@ -95,21 +95,10 @@ p {
 	border: 0 !important;
 }
 
-.App-header {
-  display: flex;
-  color: black;
-  padding: 0;
-  width: 100%;
-}
-
 .App-footer {
-  padding: 40px;
-  margin: 30px;
-  background-repeat: no-repeat;
-  background-size: 3%;
-  min-height: 25px;
-  margin-left: 100px;
-  margin-top: 100px;
+  background-color: #f17300;
+  min-height: 100px;
+  display: flex;
 }
 
 .App-main {
@@ -145,11 +134,19 @@ ul li a:hover {
   display: flex;
 }
 
+.App-header {
+  display: flex;
+  color: black;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #1C77C3;
+}
+
 .App-grid-header {
   display: flex;
   flex-direction: column;
   background-color: #1C77C3;
-  padding: 20px 0;
+  margin: 0;
   width: 100%;
   color: white;
   justify-content: center;
@@ -159,7 +156,7 @@ ul li a:hover {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   margin-right: 0;
 }
 
@@ -203,7 +200,7 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 20px;
+  margin: 10px;
 }
 
 .hide-small {
@@ -212,19 +209,19 @@ ul li a:hover {
 
 @media only screen and (min-width: 1000px) {
 
-  .hide-small {
-    display: inline-flex;
+  .App-grid-header {
+    margin: 0 17%;
   }
 
-  h1, h2 {
-    justify-content: center;
+  .hide-small {
+    display: inline-flex;
   }
 
   .App-grid-a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     margin-right: 0;
   }
 
@@ -257,8 +254,6 @@ ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #e28413;
-    color: black;
     width: 100%;
     flex-direction: row;
   }
