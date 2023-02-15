@@ -4,19 +4,21 @@
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 24px;
   font-weight: 900;
   margin: 0;
   padding: 0 0 0 20px;
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
   padding: 0 0 0 20px;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 18px;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   margin: 0;
   padding: 0 0 0 20px;
 }
@@ -69,7 +71,7 @@ p {
 .samples li a,
 .contact li a {
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 0px;
   border: 1px solid black;
   border-radius: 4px;
   width: 90px;
@@ -115,7 +117,6 @@ ul li a:hover {
   border: 1px solid transparent !important;
   background-color: white;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .stripes {
@@ -144,7 +145,7 @@ ul li a:hover {
 
 .App-grid-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #1C77C3;
   margin: 0;
   width: 100%;
@@ -187,13 +188,6 @@ ul li a:hover {
   padding: 30px;
   display: inline-flex;
   width: 30%;
-  /*background-image: url(ht-7-inch.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 1200px;
-  position: absolute;
-  right: 0;
-  bottom: 20px;*/
 }
 
 .App-grid-c {
@@ -209,8 +203,26 @@ ul li a:hover {
 
 @media only screen and (min-width: 1000px) {
 
+  h1 {
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0 0 0 20px;
+  }
+
   .App-grid-header {
-    margin: 0 17%;
+    margin: 0 22%;
   }
 
   .hide-small {
@@ -228,7 +240,11 @@ ul li a:hover {
   .App-grid-c {
     display: flex;
     flex-direction: column;
-    margin: 20px 19% 0;
+    margin: 20px 24%;
+  }
+
+  .App-grid-header {
+    flex-direction: column;
   }
 
   .samples {
@@ -242,11 +258,11 @@ ul li a:hover {
   }
 
   .contact li a {
-    width: 170px;
+    width: 150px;
   }
 
   .samples li a {
-    width: 170px;
+    width: 150px;
   }
 
   .contact {

@@ -14,8 +14,8 @@ function App() {
           <div className='App-grid-a samples-links'>
             <ul className='samples'>
               <li><h3>Samples</h3></li>
-              <li><a href='https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201%3A315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1'>Mobile app <span className='hide-small'>prototype</span></a></li>
-              <li><a href='https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf'>3d&nbsp;<span className='hide-small'>software&nbsp;</span>UX/UI plan</a></li>
+              <li><a href='https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201%3A315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1'><span className='hide-small'>Mobile&nbsp;App</span> Prototype</a></li>
+              <li><a href='https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf'>3d&nbsp;<span className='hide-small'>app&nbsp;</span>UX plan</a></li>
               <li><a href='https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf'><span className='hide-small'>UX/UI&nbsp;</span>Solutioning</a></li>
               <li><a href='https://davemelkcom.files.wordpress.com/2021/11/ux-ui-examples-sketch-3.pdf'><span className='hide-small'>UX/UI&nbsp;</span>Concepts</a></li>
             </ul>
