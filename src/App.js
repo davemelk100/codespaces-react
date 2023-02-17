@@ -26,22 +26,7 @@ function App() {
         <main>
           <h2 class="mb-3">Artist Registration</h2>
             <form class="row g-3">
-              <div class="col-md-7 mb-3">
-                <label for="inputFirstName" class="form-label">Artist or Artist Group Name(s)</label>
-                <input type="text" class="form-control" id="inputFirstName" />
-              </div>
-              <div class="col-md-3 mb-3">
-                <label for="inputPhone" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="inputPhone" />
-              </div>
-              <div class="col-md-2 mb-3">
-                <label for="inputState" class="form-label">Phone Type</label>
-                <select id="inputState" class="form-select">
-                  <option selected="">Choose...</option>
-                  <option>Mobile</option>
-                  <option>Land line</option>
-                </select>
-              </div>
+              
               <div class="col-md-4 mb-3">
                 <label for="inputFirstName" class="form-label">First Name</label>
                 <input type="text" class="form-control" id="inputFirstName" />
@@ -54,6 +39,7 @@ function App() {
                 <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail4" />
               </div>
+              
               <div class="col-md-4 mb-3">
                 <label for="inputAddress" class="form-label">Address</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
@@ -95,6 +81,33 @@ function App() {
                   <option>USA</option>
                   <option>Canada</option>
                   <option>Sweden</option>
+                </select>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label>Artist name other than name listed?</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                  <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
+                  <label class="form-check-label" for="flexRadioDefault2">No</label>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="inputFirstName" class="form-label">Artist or Artist Group Name(s)</label>
+                <input type="text" class="form-control" id="inputFirstName" />
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="inputPhone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="inputPhone" />
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="inputState" class="form-label">Phone Type</label>
+                <select id="inputState" class="form-select">
+                  <option selected="">Choose...</option>
+                  <option>Mobile</option>
+                  <option>Land line</option>
                 </select>
               </div>
 
@@ -165,7 +178,7 @@ function App() {
               <div class="row collab">
 
               <div class="col-md-4 mb-3">
-              <label>Environment</label>
+                <label>Environment</label>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                   <label class="form-check-label" for="flexRadioDefault1">Indoors</label>
@@ -234,23 +247,23 @@ function App() {
             </div>
 
 
-            <div class="row collab">
-                <div class="col-md-12 mb-3 p-0">
+            <div class="row collab mb-5">
+                <div class="col-md-12 p-0">
                   <label for="exampleFormControlTextarea1" class="form-label">Technical Details</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
             </div>
 
 
-            <div class="row collab">
-              <div class="col-md-5 p-0">
+            <div class="row collab mb-5">
+              <div class="col-md-5 mb-5 p-0">
                 <label for="formFile" class="form-label">Upload Artwork Images</label>
                 <input class="form-control" type="file" id="formFile"/>
               </div>
               <div class="col-md-1 text-center">
                 <p class="mt-5">or</p>
               </div>
-              <div class="col-md-5 p-0 m-0">
+              <div class="col-md-5 p-0 mb-5">
                 <label for="inputFirstName" class="form-label">URL</label>
                 <input type="text" class="form-control" id="inputFirstName" placeholder='https://' />
               </div>
@@ -260,8 +273,8 @@ function App() {
             </div>
 
 
-            <div class="row collab mb-3">
-              <div class="col-md-2">
+            <div class="row collab mb-5">
+              <div class="col-md-2 mb-5">
                 <label>For Sale?</label>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
@@ -272,7 +285,7 @@ function App() {
                   <label class="form-check-label" for="flexRadioDefault2">No</label>
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 mb-5">
                 <label for="inputFirstName" class="form-label">Price</label>
                 <input type="number" class="form-control" id="inputFirstName" min="0.01" step="0.01" max="2500" value="25.67" />
               </div>
@@ -285,19 +298,19 @@ function App() {
 
 
 
-              <div class="row collab mb-3">
+              <div class="row collab">
                 <div class="col-md-2">
                 <label>Venue Preference</label>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-                  <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+                  <label class="form-check-l mb-5abel" for="flexRadioDefault1">Yes</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"/>
                   <label class="form-check-label" for="flexRadioDefault2">No</label>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 mb-5">
                   <label for="inputState" class="form-label">Venues</label>
                   <select id="inputState" class="form-select">
                     <option selected="">Choose...</option>
