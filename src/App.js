@@ -83,17 +83,17 @@ function App() {
                   <option>Sweden</option>
                 </select>
               </div>
-              <div class="col-md-3 mb-3">
+              <fieldset class="col-md-3 mb-3">
                 <label>Artist name other than name listed?</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-                  <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1111" value="Yes"/>
+                  <label class="form-check-label" for="flexRadioDefault1111"><span class="d-hide">Yes</span></label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
-                  <label class="form-check-label" for="flexRadioDefault2">No</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked value="No"/>
+                  <label class="form-check-label" for="flexRadioDefault2"><span class="d-hide">No</span></label>
                 </div>
-              </div>
+              </fieldset>
               <div class="col-md-4 mb-3">
                 <label for="inputFirstName" class="form-label">Artist or Artist Group Name(s)</label>
                 <input type="text" class="form-control" id="inputFirstName" />
@@ -177,17 +177,17 @@ function App() {
 
               <div class="row collab">
 
-              <div class="col-md-4 mb-3">
+              <fieldset id="envPref" class="col-md-4 mb-3">
                 <label>Environment</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-                  <label class="form-check-label" for="flexRadioDefault1">Indoors</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Indoors"/>
+                  <label class="form-check-label visually-hidden" for="flexRadioDefault1">Indoors</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
-                  <label class="form-check-label" for="flexRadioDefault2">Outdoors</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault22" value="Outdoors" checked/>
+                  <label class="form-check-label" for="flexRadioDefault22">Outdoors</label>
                 </div>
-              </div>
+              </fieldset>
               <div class="col-md-4 mb-3">
                 <label for="inputPhone" class="form-label">Phone Number</label>
                 <input type="tel" class="form-control" id="inputPhone" />
@@ -233,17 +233,18 @@ function App() {
               </div>
 
 
-              <div class="col-md-2 mb-3">
-              <label>Can touch?</label>
+              <fieldset class="col-md-2 mb-3">
+                <label>Can touch?</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Yes"/>
                   <label class="form-check-label" for="flexRadioDefault1">Yes</label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
-                  <label class="form-check-label" for="flexRadioDefault2">No</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault222" value="No" checked/>
+                  <label class="form-check-label" for="flexRadioDefault222">
+                    <span>No</span></label>
                 </div>
-              </div>
+              </fieldset>
             </div>
 
 
@@ -274,17 +275,17 @@ function App() {
 
 
             <div class="row collab mb-5">
-              <div class="col-md-2 mb-5">
+              <fieldset class="col-md-2 mb-5">
                 <label>For Sale?</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-                  <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Yes"/>
+                  <label class="form-check-label" for="flexRadioDefault1"><span class="d-hide">Yes</span></label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
-                  <label class="form-check-label" for="flexRadioDefault2">No</label>
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2222" value="No" checked/>
+                  <label class="form-check-label" for="flexRadioDefault2222"><span class="d-hide">No</span></label>
                 </div>
-              </div>
+              </fieldset>
               <div class="col-md-2 mb-5">
                 <label for="inputFirstName" class="form-label">Price</label>
                 <input type="number" class="form-control" id="inputFirstName" min="0.01" step="0.01" max="2500" value="25.67" />
@@ -299,18 +300,27 @@ function App() {
 
 
               <div class="row collab">
-                <div class="col-md-2">
-                <label>Venue Preference</label>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-                  <label class="form-check-l mb-5abel" for="flexRadioDefault1">Yes</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"/>
-                  <label class="form-check-label" for="flexRadioDefault2">No</label>
-                </div>
-              </div>
-              <div class="col-md-4 mb-5">
+
+                <fieldset id="group2">
+                  <input type="radio" name="group2">value1</input>
+                  <input type="radio" name="group2">value2</input>
+                  <input type="radio" name="group2">value3</input>
+                </fieldset>
+
+
+                <fieldset id="venuePrep" class="col-md-2">
+                  <label>Venue Preference</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="venuePrep" value="Yes"/>
+                    <label class="form-check-l mb-5abel" for="flexRadioDefault111"><span class="d-hide">Yes</span></label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="venuePrep"value="No" checked/>
+                    <label class="form-check-label" for="flexRadioDefault22222"><span class="d-hide">No</span></label>
+                  </div>
+                </fieldset>
+
+                <div class="col-md-4 mb-5">
                   <label for="inputState" class="form-label">Venues</label>
                   <select id="inputState" class="form-select">
                     <option selected="">Choose...</option>
