@@ -1,16 +1,14 @@
 .App {
-  text-align: left;
-  font-family: Roboto, Helvetica !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   font-size: 34px;
   font-weight: 900;
   margin: 0;
-  padding: 0 0 0 20px;
   display: flex;
   justify-content: flex-start;
-  padding: 0 0 0 20px;
+  font-family: 'Roboto Slab', serif;
 }
 
 h2 {
@@ -18,13 +16,14 @@ h2 {
   display: flex;
   justify-content: flex-start;
   margin: 0;
-  padding: 0 0 0 20px;
+  font-family: 'Roboto Slab', serif;
 }
 
 h3 {
   font-size: 16px;
   margin: 0;
   display: flex;
+  font-family: 'Roboto Slab', serif;
 }
 
 .samples {
@@ -60,6 +59,7 @@ h3 {
   margin: 5px 10px;
   font-size: 14px;
   white-space: nowrap;
+  font-weight: 700;
 }
 
 .samples li a,
@@ -223,7 +223,6 @@ ul li a:hover {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background: #BCD2EE;
     width: 100%;
     flex-direction: row;
@@ -241,7 +240,6 @@ ul li a:hover {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
     flex-direction: row;
   }
