@@ -13,7 +13,7 @@ function App() {
         <div className='row'>
           <div className='col-lg-12 col-6 p-0'>
             <ul className='samples ps-lg-4'>
-              <li class="col-lg-1 font-bold"><h3>Samples</h3></li>
+              <li class="col-lg-1 font-bold"><h3 className='text-uppercase fs-4'>Samples</h3></li>
               <li><a href='https://www.figma.com/proto/IaGShRQDs0RRld07kLP9G5/dewpoint-mobile-app-copy-2?node-id=201%3A315&scaling=min-zoom&page-id=201%3A45&starting-point-node-id=201%3A315&hide-ui=1'>Mobile app <span className='hide-small'>prototype</span></a></li>
               <li><a href='https://davemelkcom.files.wordpress.com/2021/10/onu-one-uxui-plan.pdf'>3d software <span className='hide-small'>UX/UI plan</span></a></li>
               <li><a href='https://davemelkcom.files.wordpress.com/2021/10/uxui-solution-examples.pdf'><span className='hide-small'>UX/UI</span> Solutioning</a></li>
@@ -22,7 +22,7 @@ function App() {
           </div>
           <div className='col-lg-12 col-6 p-0'>
             <ul className='contact ps-lg-4'>
-            <li class="col-lg-1"><h3>Contact</h3></li>
+            <li class="col-lg-1 font-bold"><h3 className='text-uppercase fs-4'>Contact</h3></li>
               <li><a href='https://www.linkedin.com/in/davemelk/'>LinkedIn</a></li>
               <li><a href='https://docs.google.com/document/d/194Y7nvZMypnbAiT-F51o4PI05_dS7X7i26euKBHTyTA/edit?usp=sharing'>Resume</a></li>
               <li><a href='https://dribbble.com/davemelk100'>Dribble</a></li>
@@ -31,8 +31,14 @@ function App() {
           </div>
           <div className='col-lg-12 py-4 px-5'>
             <p>
-              Experienced front-end developer with a variety of experience using HTML/CSS/Javascript and more
-              with a wealth of experience with user experience design, development, solutioning and more.
+              Experienced front-end developer with a variety of experience using HTML/CSS/Javascript and 
+              a wealth of experience with user experience design, development, and solutioning. I've used
+              React, Angular, Bootstrap, and more.  I've created responsive design frameworks by hand, created 
+              design systems for graphic treatments and integrated them directly with front end code. I've also 
+              created prototypes for mobile applications using Figma and also Proto.io. Very fluent in Photoshop, 
+              Illustrator, Sketch, Figma and more. I've been fortunate to work on many applications of all sizes. 
+              Some include the Delta Dental <a href='https://www.mysmilecoverage.com/delta/'>MySmileCoverage</a> site, 
+               Delta's SaaS product <a href='https://www.rooseveltsolutions.com/'>Roosevelt Solutions</a>, <a href='https://www.healthcare.gov/'>HealthCare.gov</a>, <a href='https://www.bcbsm.com/'>bcbsm.com</a>, <a href='https://www.mibcn.com/'>mibcn.com</a> and countless others.
             </p>
             <p>
               My career has included enterprise software delivery with companies/initiatives such as HealthCare.gov, 
